@@ -1,0 +1,32 @@
+.first-section {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    color: aliceblue
+}
+
+.header .top {
+    display: flex;
+    justify-content: end;
+    align-items: right;
+    gap: 16px;
+    text-decoration: none;   
+}
+.header .lower {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul {
+    list-style: none;
+}
