@@ -8,9 +8,9 @@ body {
 }
 
 .first-section {
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: #1f2937;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(184, 48, 48);
 }
 
 #header-logo{
@@ -103,7 +103,7 @@ h2{
     align-items: center;
 }
 .box{
-    border: 3px solid red;
+    border: 3px solid rgb(184, 48, 48);
     width: 200px;
     height: 200px;
     border-radius: 15px;
@@ -113,4 +113,93 @@ h2{
     text-align: center;
     font-size: 18px;
     margin-top: 10px;
+}
+
+.third-section{
+    background-color: #e5e7eb;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    text-align: center;
+}
+
+.p-third{
+    font-size: 25px;
+    text-align: end;
+    font-weight: bold;
+}
+
+.p-third-box{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 350px;
+}
+
+.fourth-section{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-container{
+    display: flex;
+    background-color: rgb(184, 48, 48);
+    width: 75%;
+    height: 50%;
+    border: 1px;
+    border-radius: 10px;
+}
+
+h4{
+    color: white;
+    font-size: 28px;
+    text-align: start;
+}
+.last-p{
+    text-align: start;
+    font-size: 18px;
+    color: white;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 10%;
+}
+
+.bottom-button{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(184, 48, 48);
+    height: 75px;
+    align-items: center;
 }
